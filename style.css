@@ -1,0 +1,120 @@
+@font-face {
+    font-family: 'outfit';
+    src: url('./assets/fonts/outfit/Outfit-VariableFont_wght.ttf');
+}
+
+@font-face {
+    font-family: 'young-serif';
+    src: url('./assets/fonts/young-serif/YoungSerif-Regular.ttf');
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f3e5d8;
+    margin: 40px 0px 40px 0px;
+}
+
+main {
+    width: 800px;
+    margin: auto;
+    background-color: #ffffff;
+    padding: 35px;
+    border-radius: 20px;
+    font-family: 'outfit';
+}
+
+.img {
+    width: 100%;
+    height: 400px;
+    background-image: url(pexels-amirhoin-tavkoli-10934498.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+}
+
+.preparation-time {
+    background-color: #fff7fc;
+    border-radius: 15px;
+    padding: 20px;
+}
+
+.preparation-time h2 {
+    color: #a8004f;
+}
+
+.title-colors{
+    color: #7d4f46;
+}
+
+.li {
+    margin-bottom: 16px;
+
+}
+
+ul li::marker {
+    color: #7d4f46;
+}
+
+ol li::marker {
+    color: #7d4f46;
+    font-weight: bold;
+}
+
+hr {
+    margin: 30px 0px 30px 0px;
+}
+
+.nutrition-list {
+    margin: 0;
+    padding: 0;
+}
+
+.nutrition-list li {
+    padding: 15px;
+    border-bottom: 1px solid #9a9a9a;
+    list-style: none;
+}
+
+.part1,
+.part2 {
+    display: inline-block;
+    width: 400px;
+}
+
+.part2 {
+    float: right;
+    color: #7d4f46;
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 600px) {
+
+    body {
+        margin: 0;
+    }
+
+    main {
+        width: 100%;
+        border-radius: 0;
+        box-sizing: border-box;
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .content {
+        padding: 30px;
+    }
+
+    .img {
+        width: 100%;
+        height: 200px;
+        border-radius: 0;
+
+    }
+
+    .part1,.part2{
+        width: 50%;
+    }
+}
